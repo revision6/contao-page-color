@@ -1,5 +1,7 @@
 <?php
 
+namespace Revision6\Contao\PageColor\Helper;
+
 class Color
 {
     public static function getColor()
