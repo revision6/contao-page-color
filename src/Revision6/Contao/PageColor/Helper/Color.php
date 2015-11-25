@@ -4,7 +4,7 @@ namespace Revision6\Contao\PageColor\Helper;
 
 class Color
 {
-    public static function getColor()
+    public static function getColor($masterColor = null)
     {
         $page = $GLOBALS['objPage'];
 
@@ -20,6 +20,10 @@ class Color
 
         if ($rootPage->base_color) {
             return $rootPage->base_color;
+        }
+
+        if($masterColor) {
+            return $masterColor;
         }
 
         return null;
