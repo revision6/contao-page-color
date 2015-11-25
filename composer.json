@@ -1,0 +1,47 @@
+{
+  "name": "revision6/contao-page-color",
+  "description": "Contao Page Color",
+  "keywords": [
+    "contao",
+    "color",
+    "page"
+  ],
+  "type": "contao-module",
+  "homepage": "https://revision6.de",
+  "license": "LGPL-3.0+",
+  "authors": [
+    {
+      "name": "Christopher Bölter",
+      "email": "c.boelter@revision6.de",
+      "homepage": "https://revision6.de",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "shout@revision6.de",
+    "issues": "https://github.com/revision6/contao-page-color/issues",
+    "source": "https://github.com/revision6/contao-page-color"
+  },
+  "require": {
+    "php": ">=5.4",
+    "contao/core": ">3.4.3,<4.0",
+    "contao-community-alliance/composer-plugin": "~2.0",
+    "contao-legacy/parentslist": ">=1.2.0.9005,<1.3-dev"
+  },
+  "require-dev": {
+    "cyberspectrum/contao-toolbox": "~0.6",
+    "phpcq/all-tasks": "~1.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Revision6\\Contao\\PageColor": "src"
+    }
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "contao": "system/modules/page-color"
+      }
+    }
+  }
+}
