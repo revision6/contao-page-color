@@ -1,2 +1,2 @@
 # contao-page-color
-Allows you to set a color value inside the page
+https://confluence.swmh.de/display/VMIT/contao-page-color
